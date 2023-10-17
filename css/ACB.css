@@ -29,7 +29,7 @@ thead tr:first-child th:last-child{
 }
 
 thead tr:nth-child(2) th{
-	background-color: #008080;
+	background-color: black;
 }
 
 tbody td {
