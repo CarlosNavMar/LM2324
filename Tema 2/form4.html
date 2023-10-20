@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 4</title>
+</head>
+<body>
+    <form action="">
+        <fieldset style="width: 65%;">
+            <p><b>FORMULARIO DE PAGO</b>(los campos obligatorios se han marcado con *)</p>
+            <fieldset><br>
+                <legend style="font-size: 115%;"><b>Infromación de contacto</b></legend>
+                <fieldset>
+                    <legend>Profesión</legend>
+                    <input type="radio" name="profesion" id="profesion_profesor">
+                    <label for="profesion_profesor">Profesor/a</label><br>
+                    <input type="radio" name="profesion" id="profesion_estudiante">
+                    <label for="profesion_estudiante">Estudiante</label><br>
+                    <input type="radio" name="profesion" id="profesion_otro">
+                    <label for="profesion_otro">Otro</label>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Tratamiento</legend>
+                    <input type="radio" name="trato" id="trato_sr">
+                    <label for="trato_sr">Sr/Sra</label><br>
+                    <input type="radio" name="trato" id="trato_dr">
+                    <label for="trato_dr">Dr/Dra</label><br>
+                    <input type="radio" name="trato" id="trato_otro">
+                    <label for="trato_otro">Otro</label>
+                </fieldset><br>
+                <label for="nombre">Nombre:*</label><br>
+                <input type="text" name="nombre" required style="background-color:#dddddddd;width: 100%; ;"><br>
+                <label for="email">Correo:*</label><br>
+                <input type="email" name="correo" required style="background-color:#dddddddd;width: 100%;"><br>
+            </fieldset>
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
