@@ -1,0 +1,156 @@
+body{
+    background-color: lightblue;
+}
+.casa {
+    position: relative;
+
+  }
+
+  .techo {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 100px solid brown;
+    top: 0;
+    left: 25px;
+    
+  }
+
+  .chimenea {
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    background-color: black;
+    top: 20px;
+    left: 45px;
+    z-index: -1;
+  }
+
+  .pared {
+    position: absolute;
+    width: 150px;
+    height: 110px;
+    background-color: white;
+    top: 100px;
+    left: 25px;
+    border: 1px solid black;
+
+    
+  }
+
+  .puerta {
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    background-color: burlywood;
+    top: 140px;
+    left: 80px;
+    border-top-right-radius: 75%;
+    border-top-left-radius: 75%;
+    border: 1px solid black;
+
+  }
+
+  .ventana1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: burlywood;
+    top: 110px;
+    left: 135px;
+    border: 1px solid black;
+    
+  }
+   .ventana2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: burlywood;
+    top: 110px;
+    left: 35px;
+    border: 1px solid black;
+  }
+  .picaporte {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: gold;
+    top: 170px;
+    left: 110px;
+    z-index: 100;
+  }
+  .ventanita1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: 112px;
+    left: 37px;
+    border: 1px solid black;
+  }
+  .ventanita2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: 112px;
+    left: 52px;
+    border: 1px solid black;
+  }
+  .ventanita3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: 127px;
+    left: 37px;
+    border: 1px solid black;
+  }
+  .ventanita4{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: 127px;
+    left: 52px;
+    border: 1px solid black;
+  }
+  .ventanita5{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: 112px;
+    left: 137px;
+    border: 1px solid black;
+  }
+  .ventanita6{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: 112px;
+    left: 152px;
+    border: 1px solid black;
+  }
+  .ventanita7{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: 127px;
+    left: 137px;
+    border: 1px solid black;
+  }
+  .ventanita8{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: 127px;
+    left: 152px;
+    border: 1px solid black;
+  }
