@@ -154,3 +154,12 @@ body{
     left: 152px;
     border: 1px solid black;
   }
+  .arbusto{
+    position:absolute;
+    width: 500px;
+    height: 70px;
+    background-color: green;
+    z-index: -1;
+    top:140px;
+    left: 0px;
+  }
