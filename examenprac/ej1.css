@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+body{
+    font-family: 'Open Sans' , 'Helvetica', 'sans-serif';
+    background-color: #970043;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #ffd100;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center; 
+}
+p::first-letter{
+    font-size: 200%;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: wrap;
+}
+.contenido{
+    background-color: #f2f2f2;
+    flex: 60%;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+aside{
+    flex: 20%;
+    height: 100vh;
+    line-height: 100vh;
+    box-sizing: border-box;
+
+}
+footer{
+    text-align: center;
+    background-color: #ffd100;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contenido img{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+.contenido a{
+    color: #ffd100;
+}
+a:hover{
+    cursor: wait;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contenido:hover{
+    background-color: #970043;
+    color: white;
+}
+@media screen and (max-width:768px){
+    main{
+        flex-direction: column;
+    }
+}
