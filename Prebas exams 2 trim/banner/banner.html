@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+</head>
+<body>
+    <h1>Anuncios rotatorios</h1>
+    <img src="banner1.png" id="fotoActual" onclick="pulsa()">
+    <script>
+        var fotos= new Array()
+        const myInterval = setInterval(myTimer, 3000);
+        var indice = 0
+        var totalFotos;
+        fotos[0]="banner0.png";
+        fotos[1]="banner1.png";
+        fotos[2]="banner2.png";
+        fotos[3]="banner3.png";
+        fotos[4]="banner4.png";
+        fotos[5]="banner5.png"
+        totalFotos = fotos.length;
+        function myTimer() {
+ 
+            if(indice=totalFotos-1){
+                indice=0
+            }
+            else{
+                indice=indice+1;
+            }
+            document.getElementById("fotoActual").src = "banner"+indice+".png";
+        }
+        function pulsa(){
+            switch (indice){
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+            }
+        }
+    </script>
+</body>
+</html>
