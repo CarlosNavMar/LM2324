@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visita</title>
+</head>
+<body>
+    <p id="demo"></p>
+ 
+    <script>
+        clickCounter();
+        
+        function clickCounter() {
+          if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+          } else {
+            localStorage.clickcount = 1;
+          }
+          document.getElementById("demo").innerHTML = localStorage.clickcount;
+        }
+        </script>
+</body>
+</html>
